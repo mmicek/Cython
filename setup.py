@@ -1,6 +1,7 @@
 from distutils.core import setup, Extension
 
 def main():
+    # https://stackoverflow.com/questions/4597228/how-to-statically-link-a-library-when-compiling-a-python-module-extension
     setup(name="fputs",
           version="1.0.0",
           description="Python interface for the fputs C library function",
